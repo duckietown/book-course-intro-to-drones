@@ -1,0 +1,15 @@
+*pyc
+
+# documentation artifacts
+html/*
+!html/HTML_DOCS_WILL_BE_GENERATED_HERE
+pdf/*
+!pdf/PDF_WILL_BE_GENERATED_HERE
+
+# otherwise CI thinks index not clean
+*.resolved
+
+venv/
+
+# mac
+.DS_Store
