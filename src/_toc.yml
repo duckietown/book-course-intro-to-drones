@@ -11,13 +11,15 @@ parts:
           - file: part_1/chapter_a/index
             sections:
                 - file: part_1/chapter_a/section_1
-    - caption: PART_TWO
+    - caption: Linux and Networking
       maxdepth: 2
       numbered: False
       chapters:
-          - file: part_2/chapter_b/index
+          - file: 30-linux-and-networking/0-overview.md
             sections:
-                - file: part_2/chapter_b/section_1
+                - file: 30-linux-and-networking/1-assignment
+                - file: 30-linux-and-networking/1-assignment
+
           - file: part_2/chapter_c/index
             sections:
                 - file: part_2/chapter_c/section_1
