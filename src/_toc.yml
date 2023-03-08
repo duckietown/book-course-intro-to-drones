@@ -80,10 +80,9 @@ parts:
       numbered: False
       chapters:
           - file: ukf/index
-
-          - file:  ukf/theory/ukf-specifics
             sections:
                 - file: ukf/theory/background
+                - file:  ukf/theory/ukf-specifics
                 - file: ukf/theory/design-implementation
 
           - file: ukf/project/index
