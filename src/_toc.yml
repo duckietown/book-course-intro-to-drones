@@ -4,22 +4,105 @@
 format: jb-book
 root: intro
 parts:
-    - caption: PART_ONE
+    - caption: Introduction
       maxdepth: 2
       numbered: False
       chapters:
-          - file: part_1/chapter_a/index
+          - file: introduction/index
             sections:
-                - file: part_1/chapter_a/section_1
+                - file: introduction/assignment
+    
+    - caption: Safety
+      maxdepth: 2
+      numbered: False
+      chapters:
+          - file: safety/index
+            sections:
+                - file: safety/assignment
+
+
+    - caption: Middleware
+      maxdepth: 2
+      numbered: False
+      chapters:
+          - file: middleware/index
+            sections:
+                - file: middleware/assignment
+
     - caption: Linux and Networking
       maxdepth: 2
       numbered: False
       chapters:
-          - file: 30-linux-and-networking/0-overview.md
+          - file: linux-and-networking/overview.md
             sections:
-                - file: 30-linux-and-networking/1-assignment
+                - file: linux-and-networking/assignment
 
-          - file: part_2/chapter_c/index
+    - caption: Sensors
+      maxdepth: 2
+      numbered: False
+      chapters:
+
+          - file: sensors/theory/your-robot-sensors
             sections:
-                - file: part_2/chapter_c/section_1
-                - file: part_2/chapter_c/section_2
+                - file: sensors/theory/sensors-theory-overview.ipynb
+                - file: sensors/theory/estimating-height-tof
+                - file: sensors/theory/affine-transformations
+                - file: sensors/theory/gimbal-lock
+                - file: sensors/theory/estimating-velocity-optical-flow
+
+          - file: sensors/project/sensor-interfacing
+            sections:
+                - file: sensors/project/using-tof
+                - file: sensors/project/interfacing-with-imu
+                - file: sensors/project/velocity-estimation-optical-flow
+                - file: sensors/project/position-estimation-opencv
+                - file: sensors/project/project-checkoff
+
+    - caption: PID controller
+      maxdepth: 2
+      numbered: False
+      chapters:
+          - file: pid-controllers/index
+
+          - file: pid-controllers/theory/pid-generalities
+            sections:
+                - file: pid-controllers/theory/pid-theory
+          
+          - file: pid-controllers/project/index
+            sections:
+                - file: pid-controllers/project/altitude-pid-simulation
+                - file: pid-controllers/project/pid-tuning
+                - file: pid-controllers/project/checkoff
+                - file: pid-controllers/project/altitude-tuning
+
+    - caption: UKF
+      maxdepth: 2
+      numbered: False
+      chapters:
+          - file: ukf/index
+
+          - file:  ukf/theory/ukf-specifics
+            sections:
+                - file: ukf/theory/ukf-specifics
+                - file: ukf/theory/design-implementation
+
+          - file: ukf/project/index
+            sections:
+                - file: ukf/project/seven-dimensional-ukf
+                - file: ukf/project/two-dimensional-ukf
+
+    - caption: Localization and SLAM
+      maxdepth: 2
+      numbered: False
+      chapters:
+          - file: localization-and-slam/index
+
+          - file:  localization-and-slam/localization/background
+            sections:
+                - file: localization-and-slam/localization/implementation
+                - file: localization-and-slam/localization/assignment
+
+          - file:  localization-and-slam/slam/background
+            sections:
+                - file: localization-and-slam/slam/implementation
+                - file: localization-and-slam/slam/assignment
