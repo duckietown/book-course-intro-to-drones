@@ -87,8 +87,8 @@ parts:
 
           - file: ukf/project/index
             sections:
-                - file: ukf/project/seven-dimensional-ukf
                 - file: ukf/project/two-dimensional-ukf
+                - file: ukf/project/seven-dimensional-ukf
 
     - caption: Localization and SLAM
       maxdepth: 2
