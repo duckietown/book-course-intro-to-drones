@@ -8,9 +8,7 @@ parts:
       maxdepth: 2
       numbered: False
       chapters:
-          - file: introduction/index
-            sections:
-                - file: introduction/assignment
+        - file: introduction/assignment
     
     - caption: Safety
       maxdepth: 2
