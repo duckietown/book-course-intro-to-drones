@@ -63,9 +63,8 @@ parts:
       numbered: False
       chapters:
           - file: pid-controllers/index
-
-          - file: pid-controllers/theory/pid-generalities
             sections:
+                - file: pid-controllers/theory/pid-generalities
                 - file: pid-controllers/theory/pid-theory
           
           - file: pid-controllers/project/index
