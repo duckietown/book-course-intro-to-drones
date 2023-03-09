@@ -41,10 +41,9 @@ parts:
       maxdepth: 2
       numbered: False
       chapters:
-
           - file: sensors/theory/your-robot-sensors
             sections:
-                - file: sensors/theory/sensors-theory-overview.ipynb
+                - file: sensors/theory/sensors-theory-overview
                 - file: sensors/theory/estimating-height-tof
                 - file: sensors/theory/affine-transformations
                 - file: sensors/theory/gimbal-lock
