@@ -3,7 +3,7 @@
 Your drone is equipped with three sensors:
 
 1. An inertial measurement unit (IMU)
-1. A time-of-flight sensor
+1. A time-of-flight (ToF) sensor
 1. A downward facing camera.
 
 Thanks to these sensors, the drone is equipped with enough understanding of its environment to control its flight and fly autonomously. Each sensor is described below. By interfacing with each of these sensors, you will gain exposure to core robotics concepts including frame conversions, interpreting digital signals, and computer vision.
@@ -61,3 +61,5 @@ are already calculated by the Raspberry Pi's image processor for h264 video
 encoding. We also use the camera to estimate the relative position of
 the drone by estimating the rigid transformations between two images.
 
+```{tableofcontents}
+```
