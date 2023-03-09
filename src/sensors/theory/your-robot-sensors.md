@@ -9,7 +9,7 @@ Your drone is equipped with three sensors:
 Thanks to these sensors, the drone is equipped with enough understanding of its environment to control its flight and fly autonomously. Each sensor is described below. By interfacing with each of these sensors, you will gain exposure to core robotics concepts including frame conversions, interpreting digital signals, and computer vision.
 
 
-### Time-of-flight Sensor
+## Time-of-flight Sensor
 
 A range sensor is any sensor that measures the distance to an
 object. There are three main types that are used on quadcopters:
@@ -25,7 +25,7 @@ it accurately measures range and does not require an extra analog to
 digital converter board as does the infrared sensor.
 
 
-### Inertial Measurement Unit (IMU)
+## Inertial Measurement Unit (IMU)
 
 An IMU is a device that uses accelerometers and gyroscopes to measure
 forces (via accelerations) and angular rates acting on a body. The IMU
@@ -50,7 +50,7 @@ diverge.  To measures these properties of the drone, we need to use
 the camera as described below.
 
 
-### Camera
+## Camera
 
 Each drone is equipped with a single Arducam 5 megapixel camera. The camera is used to measure motion in the planar
 directions. This camera points down towards the ground to measure `x`, `y`,
