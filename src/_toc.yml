@@ -8,9 +8,7 @@ parts:
       maxdepth: 2
       numbered: False
       chapters:
-          - file: introduction/index
-            sections:
-                - file: introduction/assignment
+        - file: introduction/assignment
     
     - caption: Safety
       maxdepth: 2
@@ -41,10 +39,9 @@ parts:
       maxdepth: 2
       numbered: False
       chapters:
-
           - file: sensors/theory/your-robot-sensors
             sections:
-                - file: sensors/theory/sensors-theory-overview.ipynb
+                - file: sensors/theory/sensors-theory-overview
                 - file: sensors/theory/estimating-height-tof
                 - file: sensors/theory/affine-transformations
                 - file: sensors/theory/gimbal-lock
@@ -63,9 +60,8 @@ parts:
       numbered: False
       chapters:
           - file: pid-controllers/index
-
-          - file: pid-controllers/theory/pid-generalities
             sections:
+                - file: pid-controllers/theory/pid-generalities
                 - file: pid-controllers/theory/pid-theory
           
           - file: pid-controllers/project/index
@@ -80,16 +76,15 @@ parts:
       numbered: False
       chapters:
           - file: ukf/index
-
-          - file:  ukf/theory/ukf-specifics
             sections:
                 - file: ukf/theory/background
+                - file:  ukf/theory/ukf-specifics
                 - file: ukf/theory/design-implementation
 
           - file: ukf/project/index
             sections:
-                - file: ukf/project/seven-dimensional-ukf
                 - file: ukf/project/two-dimensional-ukf
+                - file: ukf/project/seven-dimensional-ukf
 
     - caption: Localization and SLAM
       maxdepth: 2
