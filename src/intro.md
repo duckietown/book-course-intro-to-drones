@@ -14,7 +14,7 @@ all aspects of the robot behavior, and if your CPU overheats,
 your robot isn't going anywhere.
 
 This textbook contains assignments, projects, and technical material
-related to the Duckiedrone, a small autonomous Raspberry Pi drone.
+related to the Duckiedrone, a small autonomous drone.
 After taking this course, students will be able to:
 
 * Explain the space of designs for robotic communications, safety,
