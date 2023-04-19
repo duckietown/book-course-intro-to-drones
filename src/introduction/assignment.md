@@ -32,15 +32,15 @@ Transformation matrices are fundamental to reasoning about sensors and actuators
 
 For this problem we strongly recommend you do these calculations by hand, because they are warmup questions designed to remind you of some of the prerequisite material for the class.
 
-1. Multiply the matrix by the following vector: 
+1\. Multiply the matrix by the following vector: 
 
 $$\begin{bmatrix}1 & 0 & 1\\ 0 & 1 & 2\\ 0 & 0 & 1\end{bmatrix} \times \begin{bmatrix}0\\ 0\\ 1\end{bmatrix}$$
 
-2. Multiply the matrix by the following vector: 
+2\. Multiply the matrix by the following vector: 
 
 $$\begin{bmatrix}0& 0& 1\end{bmatrix} \times \begin{bmatrix}1 & 0 & 4\\ 0 & 1 & 10\\ 0 & 0 & 1\end{bmatrix} $$
 
-3. Imagine a robot is located in the $(x, y)$ coordinate plane at the origin $(0,0)$. It uses a sensor to detect an obstacle at a distance of $6 m $ and a heading of $ 30^{\circ} $. The positive y-axis represents $ 0^{\circ} $, and the degrees increase when turning clockwise. What are the $(x, y)$ coordinates of the obstacle? Give the coordinates in *answers.txt*. Then draw your answer on a map and add it to your repo as *map.png*.
+3\. Imagine a robot is located in the $(x, y)$ coordinate plane at the origin $(0,0)$. It uses a sensor to detect an obstacle at a distance of $6 m $ and a heading of $ 30^{\circ} $. The positive y-axis represents $ 0^{\circ} $, and the degrees increase when turning clockwise. What are the $(x, y)$ coordinates of the obstacle? Give the coordinates in *answers.txt*. Then draw your answer on a map and add it to your repo as *map.png*.
 
 ## Law of Leaky Abstractions (20 points)
 
