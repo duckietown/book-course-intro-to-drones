@@ -12,7 +12,7 @@ standard in research. You will go through a few tutorials to gain
 exposure to the core concepts of ROS.
 
 Before you begin the ROS component of this assignment, read through the 
-[ROS section of the Software Architecture portion of the Operations Manual](https://docs.duckietown.com/daffy/opmanual-duckiedrone/intro.html). 
+[ROS section of the Software Architecture portion of the Operations Manual](https://docs.duckietown.com/daffy/opmanual-duckiedrone/software-architecture/ros.html). 
 This document provides a general overview of ROS. Do not worry about 
 understanding everything in this section; we are asking you to read it 
 only to expose you to the material you will be covering in the assignment 
