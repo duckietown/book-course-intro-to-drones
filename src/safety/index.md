@@ -1,5 +1,5 @@
 (part:safety)=
-# Safety
+# Assignment 2: Safety
 
 This unit asks you to think about safety considerations with robotics. For some
 of these questions, there is no one correct answer; however we will publish our
