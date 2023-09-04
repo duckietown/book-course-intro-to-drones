@@ -95,6 +95,8 @@ parts:
       maxdepth: 2
       numbered: False
       chapters:
+          - file: localization-and-slam/index
+
           - file:  localization-and-slam/localization/background
             sections:
                 - file: localization-and-slam/localization/implementation
@@ -104,6 +106,4 @@ parts:
             sections:
                 - file: localization-and-slam/slam/implementation
                 - file: localization-and-slam/slam/assignment
-
-          - file: localization-and-slam/index
 
