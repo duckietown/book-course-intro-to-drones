@@ -1,4 +1,4 @@
-# Assignment: Sensors Theory Overview
+# Assignment 5: Sensors Theory
 
 This assignment comprises several parts: 
 

@@ -1,5 +1,5 @@
 (part:middleware)=
-# Middleware
+# Assignment 4: Middleware
 
 This unit asks you to think and learn about middleware. For our drone,
 we use ROS (Robot Operating System).
