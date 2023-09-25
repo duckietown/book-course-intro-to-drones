@@ -1,3 +1,3 @@
-# PID Controllers
+# Assignment 6: PID Controller Theory
 ```{tableofcontents}
 ```

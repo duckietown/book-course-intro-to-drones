@@ -1,4 +1,4 @@
-# Linux and Networking
+# Assignment 3: Linux and Networking
 
 
 The networking component of this assignment will help you understand

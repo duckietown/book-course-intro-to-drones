@@ -24,6 +24,13 @@ parts:
             sections:
                 - file: safety/assignment
 
+    - caption: Linux and Networking
+      maxdepth: 2
+      numbered: False
+      chapters:
+          - file: linux-and-networking/overview.md
+            sections:
+                - file: linux-and-networking/assignment
 
     - caption: Middleware
       maxdepth: 2
@@ -32,14 +39,6 @@ parts:
           - file: middleware/index
             sections:
                 - file: middleware/assignment
-
-    - caption: Linux and Networking
-      maxdepth: 2
-      numbered: False
-      chapters:
-          - file: linux-and-networking/overview.md
-            sections:
-                - file: linux-and-networking/assignment
 
     - caption: Sensors
       maxdepth: 2
@@ -107,3 +106,4 @@ parts:
             sections:
                 - file: localization-and-slam/slam/implementation
                 - file: localization-and-slam/slam/assignment
+
