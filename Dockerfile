@@ -3,7 +3,7 @@
 # ==================================================>
 # ==> Do not change the code below this line
 ARG ARCH
-ARG DISTRO=daffy
+ARG DISTRO=ente
 ARG DOCKER_REGISTRY=docker.io
 ARG BASE_IMAGE=dt-jupyter-book
 ARG BASE_TAG=${DISTRO}-${ARCH}
