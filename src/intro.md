@@ -1,4 +1,4 @@
-# Welcome to Duckiesky
+# Introduction to Robotics with Drones
 
 Robots are the decathlon of computer science: to make
 a robot work, you need to understand robotics, which we
