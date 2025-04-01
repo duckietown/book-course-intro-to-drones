@@ -1,16 +1,17 @@
+(book-intro-drones-duckiesky-tellex-brown)=
 # Introduction to Robotics with Drones
 
 Robots are the decathlon of computer science: to make
 a robot work, you need to understand robotics, which we
 define as a program that includes a sensor and an actuator.
-Additionally though, you typically need to understand
+Additionally, though, you typically need to understand
 systems, because your robot will use multiple programs
 running on a computer to make its decisions; you need to
 understand networking to make the computers talk; you need to
 worry about algorithms to make efficient use of the computing
 resources and prove bounds on your robot's behavior; and you
 need to understand hardware, because hardware limits affect
-all aspects of the robot behavior, and if your CPU overheats,
+all aspects of the robot's behavior, and if your CPU overheats,
 your robot isn't going anywhere.
 
 This textbook contains assignments, projects, and technical material
