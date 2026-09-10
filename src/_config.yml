@@ -38,5 +38,7 @@ html:
 
 sphinx:
   extra_extensions: []
+  local_extensions:
+    dt_question: _extensions
   config:
     intersphinx_mapping: {}

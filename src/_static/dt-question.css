@@ -1,0 +1,21 @@
+.dt-question {
+  min-width: 0;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 1px solid currentColor;
+  border-radius: 0.35rem;
+}
+.dt-question legend { width: auto; padding: 0 0.4rem; font-size: 1rem; font-weight: 600; }
+.dt-question .dt-question-options { list-style: none; padding-left: 0; }
+.dt-question-options label { display: block; padding: 0.4rem; cursor: pointer; }
+.dt-question-options input { margin-right: 0.4rem; }
+.dt-question-check { padding: 0.4rem 0.8rem; }
+.dt-question :focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+.dt-question-status { margin: 0.75rem 0 0; font-weight: 600; }
+.dt-question-status:empty { margin: 0; }
+.dt-question [hidden] { display: none !important; }
+@media print {
+  .dt-question { break-inside: avoid; }
+  .dt-question-check, .dt-question-status { display: none; }
+  .dt-question .dt-question-solution[hidden], .dt-question-solution > p { display: block !important; }
+}

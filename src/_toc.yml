@@ -107,3 +107,9 @@ parts:
             sections:
                 - file: localization-and-slam/slam/implementation
                 - file: localization-and-slam/slam/assignment
+
+    - caption: Prototype
+      maxdepth: 1
+      numbered: False
+      chapters:
+          - file: self-assessment-prototype
