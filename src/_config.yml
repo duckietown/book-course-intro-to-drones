@@ -40,5 +40,6 @@ sphinx:
   extra_extensions: []
   local_extensions:
     dt_question: _extensions
+    manual_repository_links: _extensions
   config:
     intersphinx_mapping: {}
