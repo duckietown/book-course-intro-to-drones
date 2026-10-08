@@ -21,7 +21,7 @@ def open_repository_links_in_new_tabs(
 
     for html_path in Path(app.outdir).rglob("*.html"):
         html = html_path.read_text(encoding="utf-8")
-        soup = BeautifulSoup(html, "html.parser")
+        soup = BeautifulSoup(html, "lxml")
         links = soup.select(".menu-dropdown-repository-buttons a.headerbtn")
         if not links:
             continue
